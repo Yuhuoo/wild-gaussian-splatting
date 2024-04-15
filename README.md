@@ -16,6 +16,8 @@ To begin, clone the repository and initialize its submodules:
 
 ```sh
 git clone git@github.com:nerlfield/wild-gaussian-splatting.git --recursive
+or
+git clone https://github.com/nerlfield/wild-gaussian-splatting --recursive
 cd wild-gaussian-splatting
 git pull --recurse-submodules
 git submodule update --init --recursive
